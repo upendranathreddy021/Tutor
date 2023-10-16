@@ -1,0 +1,43 @@
+.serv{
+    width: 82%;
+    height: 100%;
+    margin-left: 18%;
+   
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.serv input, .serv textarea{
+    width: 50%;
+    box-sizing: border-box;
+    height: 6vh;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid rgb(53, 4, 4);
+}
+.serv textarea{
+    background-color: antiquewhite;
+}
+.serv button{
+    width: 20vh;
+    height: 8vh;
+    border: 5px black solid;
+    background-color: blueviolet;
+    color: black;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 28%;
+    margin-top: 4vh;
+}
+.serv button:hover{
+    border: none;
+    background-color: rgb(53, 65, 136);
+}
+.serv p{
+    line-height: 0px;
+    font-size: 18px;
+    font-weight: 800;
+    background-color: transparent;
+}

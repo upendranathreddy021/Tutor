@@ -1,0 +1,12 @@
+let {adminapply,regdet}=require("../controlers/adminapply")
+let express=require('express')
+const {Islogin}=require('../controlers/usercon')
+const {servdet,packdet,getpack,getserv}=require('../controlers/servicecon')
+let adminr=express.Router()
+adminr.get("/apply",Islogin,adminapply)
+adminr.get("/regdet",Islogin,regdet)
+adminr.post("/servdet",servdet)
+adminr.post("/packdet",packdet)
+adminr.get("/service",getserv)
+adminr.get("/packages",getpack)
+module.exports=adminr

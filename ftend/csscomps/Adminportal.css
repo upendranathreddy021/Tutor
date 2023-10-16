@@ -1,0 +1,23 @@
+
+.main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.main1{
+    height: 100%;
+    width: 50%;
+    background-color: blanchedalmond;
+}
+.main2{
+    background-color: aqua;
+    width: 50%;
+    height: 100%;
+}
+.main h1 a{
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: black;
+}
